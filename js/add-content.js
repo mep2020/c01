@@ -24,3 +24,15 @@ total	 = price * quantity;
 
 var el = document.getElementById('cost');
 el.textContent = 'Cost is $' + total;
+
+var username;
+var message;
+
+username = "Matilda";
+message = "This is another example"
+
+var elName = document.getElementById('name');
+elName.textContent = username;
+
+var elNote = document.getElementById('note');
+elNote.textContent = message;
